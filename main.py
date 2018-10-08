@@ -10,8 +10,8 @@ seed = random.randrange(0, 999999)
 random.seed(seed)
 
 # variables
-height = 600
-width = 1200
+height = 1080
+width = 1920
 
 clock = pygame.time.Clock()
 FPS = 60
@@ -41,7 +41,7 @@ MouseXY = ()
 selected = ""
 
 #make game display
-gameDisplay = pygame.display.set_mode((width, height)) #, pygame.FULLSCREEN)
+gameDisplay = pygame.display.set_mode((width, height), pygame.FULLSCREEN)
 pygame.display.set_caption("evo")
 
 pygame.display.update()
